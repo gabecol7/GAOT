@@ -195,14 +195,14 @@ GAOT/
 │   ├── datasets/             # Unified data processing and graph building
 │   │   ├── data_processor.py # Base data processor for all modes
 │   │   ├── sequential_data_processor.py # Specialized for time-dependent data
-│   │   ├── graph_builder.py  # Graph construction utilities
+│   │   ├── graph_builder.py  # Graph construction utilities (To be repoduced)
 │   │   └── data_utils.py     # Dataset classes and utilities
 │   ├── model/                # Unified model definitions
-│   │   ├── gaot.py          # Main GAOT model (supports 2D/3D, fx/vx)
-│   │   └── layers/          # Neural network layer implementations
+│   │   ├── gaot.py          # Main GAOT model (supports 2D/3D, fx/vx) (to be reproduced)
+│   │   └── layers/          # Neural network layer implementations (agno, gemb, magno to be reproduced)
 │   ├── trainer/              # Unified trainer implementations
-│   │   ├── static_trainer.py    # For time-independent problems
-│   │   └── sequential_trainer.py # For time-dependent problems
+│   │   ├── static_trainer.py    # For time-independent problems (to be reproduced)
+│   │   └── sequential_trainer.py # For time-dependent problems  (to be reproduced)
 │   └── utils/                # Utilities for metrics, plotting, scaling
 │       ├── metrics.py        # Error computation and evaluation
 │       ├── plotting.py       # Advanced plotting and animation

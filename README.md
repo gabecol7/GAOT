@@ -199,7 +199,7 @@ GAOT/
 │   │   └── data_utils.py     # Dataset classes and utilities
 │   ├── model/                # Unified model definitions
 │   │   ├── gaot.py          # Main GAOT model (supports 2D/3D, fx/vx) (to be reproduced)
-│   │   └── layers/          # Neural network layer implementations (agno, gemb, magno to be reproduced)
+│   │   └── layers/          # Neural network layer implementations (to be reproduced)
 │   ├── trainer/              # Unified trainer implementations
 │   │   ├── static_trainer.py    # For time-independent problems (to be reproduced)
 │   │   └── sequential_trainer.py # For time-dependent problems  (to be reproduced)
